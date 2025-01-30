@@ -12,46 +12,6 @@ import salome_notebook
 notebook = salome_notebook.NoteBook()
 sys.path.insert(0, r'C:/Users/Lenovo/00_MODELOS/00_TREINO_SOFTWARE/CODE_ASTER_SCRIPS/Training_code_aster_module_1')
 
-####################################################
-##       Begin of NoteBook variables section      ##
-####################################################
-notebook.set("C", 950)
-notebook.set("C05", "C/2")
-notebook.set("Dex", 219)
-notebook.set("Rex", "Dex/2")
-notebook.set("t", 6)
-notebook.set("Rin", "Rex-t")
-notebook.set("Cd", 133)
-notebook.set("Cd05", "Cd/2")
-notebook.set("r1", 15)
-notebook.set("r2", 3)
-notebook.set("d", 3.6)
-notebook.set("DL", "Dex+2*tL")
-notebook.set("RL", "DL/2")
-notebook.set("LL", 230)
-notebook.set("LL05", "LL/2")
-notebook.set("tL", 4)
-notebook.set("Pi", 3.14)
-notebook.set("Ld", 102)
-notebook.set("Ld05", "Ld/2")
-notebook.set("tetha", "Ld05/Rex")
-notebook.set("SL1", "Cd05+t-d")
-notebook.set("e", "t-d")
-notebook.set("e1", "d+tL")
-notebook.set("SL2", "Cd05-r1")
-notebook.set("tetha1", "(Ld05+t-d)/Rex")
-notebook.set("n", 8)
-notebook.set("n3", "7*n")
-notebook.set("D", 219)
-notebook.set("d", 3.6)
-notebook.set("t", 6)
-notebook.set("D_2", 109.5)
-notebook.set("p", 16)
-notebook.set("p05", "p/2")
-####################################################
-##        End of NoteBook variables section       ##
-####################################################
-###
 ### SMESH component
 ###
 
